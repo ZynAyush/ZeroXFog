@@ -2,6 +2,14 @@
 
 A Minecraft Java resource pack that removes distracting fog in the Nether, End, and caves while preserving the vanilla visual style.
 
+## Repository layout
+
+- `pack/` — files extracted from the latest published release, preserving the resource-pack folder structure.
+- `releases/<version>/` — original ZIP downloaded from Modrinth.
+- `docs/RELEASE_PROVENANCE.md` — upstream version, download URL, file size, and checksum records.
+
+The `pack/` directory is the unpacked published release, **not the original editable authoring project**. The ZIP in `releases/` is retained unchanged.
+
 ## Latest Modrinth release
 
 - Version: **1.2** (published 2026-10-10)
